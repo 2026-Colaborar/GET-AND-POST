@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* CONTENEDOR DEL TÍTULO */
+.titulo-container {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* TÍTULO PRINCIPAL */
+.titulo-sistema {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0;
+
+    text-shadow:
+        1px 1px 0 #000,
+        2px 2px 0 #222,
+        3px 3px 8px rgba(0,0,0,0.8);
+}
