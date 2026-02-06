@@ -13,7 +13,6 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 # ---------- LOGIN ----------
-# ---------- LOGIN ----------
 @app.route("/", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
